@@ -1,0 +1,20 @@
+// Factorial of the given numbers
+
+#include <stdio.h>
+void main()
+{
+   int i,fact=1,num;
+   printf("enter the numbers");
+   scanf("%d",&num);
+   for(i=1;i<=num;i++)
+   fact =fact*i;
+   
+   printf("\n the factorial of %d is %d",num, fact);
+return 0;
+}
+
+//Output
+
+
+enter the numbers5
+the factorial of 5 is 120
