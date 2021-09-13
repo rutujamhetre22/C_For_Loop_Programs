@@ -1,0 +1,14 @@
+// Multiplication table in Give numbers using for loop
+#include <stdio.h>
+void main()
+{
+   int i,num;
+   printf("enter the numbers");
+   scanf("%d",&num);
+   for(i=1;i<=10;i++)
+   {
+       printf("\n multi table   %d table is %d and %d ",i,num,i*num);
+   }
+  
+   return 0;
+   }
